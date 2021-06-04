@@ -1,8 +1,8 @@
 ### basic settings
 
 # site properties and page defaults
-title: Lab Website Template
-description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
+title: SARS-CoV-2 Genetic Interactions in Yeast
+description: A website for my ongoing research on SARS-CoV-2 genetic interactions in yeast in Rodney Rothstein's Lab at Columbia University.
 logo: images/logo.svg
 header: images/background.jpg
 footer: images/background.jpg
@@ -10,12 +10,12 @@ baseurl: /lab-website-template
 
 # site social media and other links
 links:
-  email: jane.smith@your-lab.com
-  google-scholar: Jane Smith
-  github: your-lab
-  twitter: YourLabHandle
-  instagram: YourLabHandle
-  youtube: YourLabChannel
+  email: yinghan@caltech.edu
+  google-scholar: Megan Wang
+  github: https://github.com/meganwang08
+  #twitter: YourLabHandle
+  #instagram: YourLabHandle
+  #youtube: YourLabChannel
 
 ### advanced settings
 
