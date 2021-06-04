@@ -6,7 +6,7 @@ description: A website for my ongoing research on SARS-CoV-2 genetic interaction
 logo: images/logo.svg
 header: images/background.jpg
 footer: images/background.jpg
-baseurl: /lab-website-template
+baseurl: /SARS-CoV-2-Genetic-Interactions-in-Yeast
 
 # site social media and other links
 links:
