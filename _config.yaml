@@ -3,7 +3,7 @@
 # site properties and page defaults
 title: SARS-CoV-2 Genetic Interactions in Yeast
 description: A website on my ongoing research on SARS-CoV-2 genetic interactions in yeast in Rodney Rothstein's Lab at Columbia University.
-logo: images/covid.gif
+logo: images/covid19.gif
 header: images/background.jpg
 footer: images/background.jpg
 baseurl: /SARS-CoV-2-Genetic-Interactions-in-Yeast
