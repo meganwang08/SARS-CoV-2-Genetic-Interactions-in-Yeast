@@ -27,7 +27,7 @@
       width: 100%;
     {%- endif -%}
   {%- endcapture -%}
-  
+
   {%- capture img -%}
     max-height: {{ height }};
   {%- endcapture -%}
@@ -43,7 +43,7 @@
 {%- endif -%}
 
 <figure class="figure">
-  <a 
+  <a
     {% if include.link %}href="{{ include.link | relative_url }}"{% endif %}
     class="figure_image"
     style="{{ link }}"
@@ -59,6 +59,13 @@
   {%- if include.caption -%}
     <figcaption class="figure_caption">
       {{- include.caption | markdownify | remove: "<p>" | remove: "</p>" -}}
+    </figcaption>
+  {%- endif -%}
+  {%- if include.bold_caption -%}
+    <figcaption class="bold_figure_caption">
+      <b>
+        {{- include.bold_caption | markdownify | remove: "<p>" | remove: "</p>" -}}
+      </b>
     </figcaption>
   {%- endif -%}
 </figure>
