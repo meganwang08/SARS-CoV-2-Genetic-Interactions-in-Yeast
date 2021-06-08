@@ -56,16 +56,13 @@
       loading="lazy"
     />
   </a>
-  {%- if include.caption -%}
-    <figcaption class="figure_caption">
-      {{- include.caption | markdownify | remove: "<p>" | remove: "</p>" -}}
-    </figcaption>
-  {%- endif -%}
+
   {%- if include.bold_caption -%}
-    <figcaption class="bold_figure_caption">
-      <b>
+    <figcaption class="bold_figure_caption" align='justify'>
+      <b><i>
         {{- include.bold_caption | markdownify | remove: "<p>" | remove: "</p>" -}}
-      </b>
+      </i></b>
+      {{- include.caption | markdownify | remove: "<p>" | remove: "</p>" -}}
     </figcaption>
   {%- endif -%}
 </figure>
