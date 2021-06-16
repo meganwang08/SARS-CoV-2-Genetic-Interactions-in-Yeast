@@ -15,4 +15,4 @@ Below is a tool to find a lists of hits for each SPA screen we conducted. You ma
 
 {% include search-info.html %}
 
-{% include genetic-interactions-list.html data="SPA_screens" %}
+{% include genetic-interactions-list.html data="SPA_screens" component='spa' %}

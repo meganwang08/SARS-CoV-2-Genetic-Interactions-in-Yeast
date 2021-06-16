@@ -1,4 +1,5 @@
 # GENERATED AUTOMATICALLY, DO NOT EDIT
+# {% include list.html data="citations" component="citation" style="rich" %}
 
 - id: doi:10.1016/j.csbj.2020.05.017
   title: TEST EDIT Constructing knowledge graphs and their biomedical applications

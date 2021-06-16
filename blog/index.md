@@ -9,6 +9,8 @@ nav:
 
 {% include section.html %}
 
+{% include search-box.html %}
+
 {% include search-info.html %}
 
 {% include list.html data="posts" component="post-excerpt" %}

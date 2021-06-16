@@ -1,6 +1,13 @@
 SPA:
 - query: Nsp10
-  hit_type:
-    - SDL: ERG6
-    - SDL: SML1
-    - SDL: ABD1
+  type: SDL
+  SDL:
+    - ERG6
+    - SML1
+    - ABD1
+- query: Nsp10
+  type: suppressor
+  SUP:
+    - DIF1
+    - RAD52
+  

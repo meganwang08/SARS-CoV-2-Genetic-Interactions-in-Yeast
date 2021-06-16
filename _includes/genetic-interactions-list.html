@@ -1,12 +1,27 @@
 {%- assign emptyarray = "" | split: "," -%}
 {%- assign data = site.data[include.data] | default: site[include.data] | default: emptyarray -%}
+
 {%- for item in data.SPA -%}
-{{item.query}}
-<br> SDL
+{%- if item.type == 'SDL' -%}
+<h2 style="text-align:left;margin-top:-20px;margin-bottom:-20px;"> {{item.query}} </h2>
+<p> SDL </p>
 <ul>
-{%- assign SDL = item.hit_type -%}
-{%- for entry in item.hit_type -%}
-<li>{{entry.SDL}}</li>
+{%- for SDL in item.SDL -%}
+<li>{{SDL}}</li>
 {%- endfor -%}
 </ul>
+{%- endif -%}
+{%- if item.type == 'suppressor' -%}
+{%- for sup in item.SUP -%}
+
 {%- endfor -%}
+{%- endif -%}
+{%- endfor -%}
+
+{% comment %}
+{%-
+  include {{ component }}
+  query=item.query
+  SDL_gene=entry
+-%}
+{% endcomment %}
