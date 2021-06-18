@@ -1,27 +1,39 @@
 {%- assign emptyarray = "" | split: "," -%}
 {%- assign data = site.data[include.data] | default: site[include.data] | default: emptyarray -%}
-
+<div class='query'>
 {%- for item in data.SPA -%}
-{%- if item.type == 'SDL' -%}
-<h2 style="text-align:left;margin-top:-20px;margin-bottom:-20px;"> {{item.query}} </h2>
-<p> SDL </p>
-<ul>
-{%- for SDL in item.SDL -%}
-<li>{{SDL}}</li>
-{%- endfor -%}
-</ul>
-{%- endif -%}
-{%- if item.type == 'suppressor' -%}
-{%- for sup in item.SUP -%}
+  {%- if forloop.index | modulo:3 == 1 -%}
+  <div class="column-left">
+  {%- elsif forloop.index | modulo:3 == 2 -%}
+  <div class="column-center">
+  {%- else -%}
+  <div class="column-right">
+  {%- endif -%}
+    <div class='center'>
+        <div class="top_center">
+        <h2 style="text-align:center;margin-top:-15px;margin-bottom:-20px;"> {{item.query}} </h2>
+        </div>
 
-{%- endfor -%}
-{%- endif -%}
-{%- endfor -%}
+      {% comment %}<div class="column-1">{% endcomment %}
+        <p id="rcorners1" style="margin-top:15px;text-align:center"> SDL </p>
+        <ul>
+          {%- for SDL in item.SDL -%}
+          <li style="margin-top:-10px;margin-bottom:-5px;">{{SDL}}</li>
+          {%- endfor -%}
+        </ul>
+      {% comment %}</div>{% endcomment %}
 
-{% comment %}
-{%-
-  include {{ component }}
-  query=item.query
-  SDL_gene=entry
--%}
-{% endcomment %}
+      {% comment %}<div class="column-2">{% endcomment %}
+        <p style="margin-top:15px;" id="rcorners2"> Suppressor </p>
+        <ul>
+          {%- for SUP in item.SUP -%}
+          <li style="margin-top:-10px;margin-bottom:-5px;">{{SUP}}</li>
+          {%- endfor -%}
+        </ul>
+      {% comment %}</div>{% endcomment %}
+      <div class="break">
+      </div>
+    </div>
+  </div>
+{%- endfor -%}
+</div>

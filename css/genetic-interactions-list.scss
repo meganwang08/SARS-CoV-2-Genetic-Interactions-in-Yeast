@@ -5,18 +5,62 @@
 @import "theme";
 @import "mixins";
 
-h2 {
-  color: $blue-gray-800;
+.query .center {
+  border-radius: 3px;
+  margin: auto;
+  width: 95%;
+  border: 3px solid $gray-400;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 15px;
 }
 
-#rcorners1 {
-  border-radius: 10px;
-  background: $blue-800;
+.test {
+  border-radius: 3px;
+  margin: auto;
+  width: 95%;
+  border: 3px solid $gray-400;
   padding: 5px;
-  width: 45px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 15px;
+}
+
+.top_center {
+  margin: 0;
+  width: 100%;
+  border: 5px solid $gray-400;
+  padding: 10px;
+  background-color: $gray-400
+}
+
+.query h2 {
+  color: $blue-gray-800;
+  font-size: 2em;
+}
+
+.query #rcorners1 {
+  border-radius: 10px;
+  background: $red-200;
+  padding: 4px;
+  width: 40px;
   height: 35px;
 }
 
-ul {
-  line-height:20%
-{
+.query #rcorners2 {
+  border-radius: 10px;
+  background: $light-blue-200;
+  padding: 4px;
+  width: 92px;
+  height: 35px;
+}
+
+.column-left{ float: left; width: 33.333%; }
+.column-right{ float: right; width: 33.333%; }
+.column-center{ display: inline-block; width: 33.333%; }
+
+.column-1{ float: left; width: 50%; }
+.column-2{ float: left; width: 50%; }
+
+.query .break{
+  margin: 0;
+}

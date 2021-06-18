@@ -9,8 +9,6 @@ nav:
 
 Below is a tool to find a lists of hits for each SPA screen we conducted. You may sort the list by interaction type (SDL or suppressor).
 
-{% include section.html %}
-
 {% include search-box.html %}
 
 {% include search-info.html %}
