@@ -15,21 +15,25 @@
         </div>
 
       {% comment %}<div class="column-1">{% endcomment %}
+      <div class="column-1">
         <p id="rcorners1" style="margin-top:15px;text-align:center"> SDL </p>
         <ul>
           {%- for SDL in item.SDL -%}
           <li style="margin-top:-10px;margin-bottom:-5px;">{{SDL}}</li>
           {%- endfor -%}
         </ul>
+      </div>
       {% comment %}</div>{% endcomment %}
 
       {% comment %}<div class="column-2">{% endcomment %}
+      <div class="column-2">
         <p style="margin-top:15px;" id="rcorners2"> Suppressor </p>
         <ul>
           {%- for SUP in item.SUP -%}
           <li style="margin-top:-10px;margin-bottom:-5px;">{{SUP}}</li>
           {%- endfor -%}
         </ul>
+      </div>
       {% comment %}</div>{% endcomment %}
       <div class="break">
       </div>
