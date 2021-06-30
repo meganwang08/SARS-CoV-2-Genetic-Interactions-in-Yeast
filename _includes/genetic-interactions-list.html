@@ -1,7 +1,29 @@
+
+<table>
+  <thead><tr>
+    <th>Column A</th>
+    <th>Column B</th>
+    </tr></thead>
+  <tbody>
+    <tr>
+      <td>Cell A1</td>
+      <td>Cell B1</td>
+    </tr>
+    <tr>
+      <td>Cell A2</td>
+      <td>Cell B2</td>
+    </tr>
+  </tbody>
+</table>
+
+<script type="text/javascript" src="http://r.office.microsoft.com/r/rlidExcelButton?v=1&kip=1"></script>
+
+{% comment %}
 {%- assign emptyarray = "" | split: "," -%}
 {%- assign data = site.data[include.data] | default: site[include.data] | default: emptyarray -%}
-<div class='query'>
+
 {%- for item in data.SPA -%}
+<div class='query'>
   {%- if forloop.index | modulo:3 == 1 -%}
   <div class="column-left">
   {%- elsif forloop.index | modulo:3 == 2 -%}
@@ -35,9 +57,12 @@
         </ul>
       </div>
       {% comment %}</div>{% endcomment %}
+
       <div class="break">
       </div>
+
     </div>
   </div>
-{%- endfor -%}
 </div>
+{%- endfor -%}
+{% endcomment %}
