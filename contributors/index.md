@@ -1,8 +1,8 @@
 ---
 title: Contributors
 nav:
-  order: 3
-  tooltip: About the team
+  order: 5
+  tooltip: About and contact
 ---
 
 # <i class="fas fa-users"></i>Team

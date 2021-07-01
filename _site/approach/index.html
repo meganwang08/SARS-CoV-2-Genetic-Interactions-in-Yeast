@@ -3,28 +3,28 @@
   <!-- put your analytics (e.g. Google Analytics) tracking code here -->
 
   <title>
-    SARS-CoV-2 Genetic Interactions in Yeast - Felix Cited
+    SARS-CoV-2 Genetic Interactions in Yeast - Approach
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
 
 <!-- https://metatags.io/ -->
 <meta name="title" content="
-SARS-CoV-2 Genetic Interactions in Yeast - Felix Cited
+SARS-CoV-2 Genetic Interactions in Yeast - Approach
 " />
-<meta name="description" content="Treat Researcher" />
+<meta name="description" content="A website on my ongoing research on SARS-CoV-2 genetic interactions in yeast in Rodney Rothstein's Lab at Columbia University." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="" />
 <meta property="og:title" content="
-SARS-CoV-2 Genetic Interactions in Yeast - Felix Cited
+SARS-CoV-2 Genetic Interactions in Yeast - Approach
 " />
-<meta property="og:description" content="Treat Researcher" />
+<meta property="og:description" content="A website on my ongoing research on SARS-CoV-2 genetic interactions in yeast in Rodney Rothstein's Lab at Columbia University." />
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content="" />
 <meta property="twitter:title" content="
-SARS-CoV-2 Genetic Interactions in Yeast - Felix Cited
+SARS-CoV-2 Genetic Interactions in Yeast - Approach
 " />
-<meta property="twitter:description" content="Treat Researcher" />
+<meta property="twitter:description" content="A website on my ongoing research on SARS-CoV-2 genetic interactions in yeast in Rodney Rothstein's Lab at Columbia University." />
 
 <!-- RSS -->
 <link
@@ -144,29 +144,22 @@ SARS-CoV-2 Genetic Interactions in Yeast - Felix Cited
       class="background"
       
       
-    ><div class="section"><h1>Felix Cited</h1><figure class="figure">
-  <a
-    
-    class="figure_image"
-    style=""
-  >
-    <img
-      src="/SARS-CoV-2-Genetic-Interactions-in-Yeast/images/member.jpg"
-      alt=""
-      title=""
-      style=""
-      loading="lazy"
-    />
-  </a></figure>
-<p class="center"><div class="role" ><i class="fas fa-graduation-cap"></i><span class="role_text">PhD Student</span><span class="role_description">Treat Researcher</span></div>
-</p>
+    ><div class="section">
 
-<p class="center"><a class="link" href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/felixcited.com" data-tooltip="Home page" data-icon="true" data-text="true" data-style=""><i class="fas fa-home fa-lg "></i><span class="truncate">Home Page</span></a><a class="link" href="mailto:felix@cited.com" data-tooltip="Email" data-icon="true" data-text="true" data-style=""><i class="fas fa-envelope fa-lg "></i><span class="truncate">Email</span></a><a class="link" href="https://twitter.com/felixcited" data-tooltip="Twitter" data-icon="true" data-text="true" data-style=""><i class="fab fa-twitter fa-lg "></i><span class="truncate">Twitter</span></a></p>
+<h1 id="approach">Approach</h1>
+<p>To screen for SDL interactions, the Rothstein group developed Selective Ploidy Ablation (SPA, Fig. 3) <sup> <a href="https://doi.org/10.1101/gr.109033.110">7</a> </sup>
+. SPA involves a universal donor strain consisting of an over-expression plasmid and 16 modified chromosomes <sup> <a href="https://doi.org/10.1534/genetics.108.087999">8</a> </sup>
+ destined for destabilization in diploid cells. After mating this donor strain with a library consisting of either single nonessential gene mutants or temperature sensitive alleles of essential genes, all of the chromosomes of the donor genome are selected against leaving only the over-expression plasmid and the recipient genome consisting of a single mutation (<a href="../#backgroundmotivation">Fig. 1A</a>). Mating and media transferring protocols are assisted via robotic pinning and growth of the recipient strains is measured through quantitating digital images of colony growth (<a href="../#backgroundmotivation">Fig. 1B</a>). The ScreenMill R package allows the quantification of colony sizes by utilizing image analyzing algorithms, colony size normalization, and manual input. After the review process, ScreenMill reports of screen results and relevant statistical information <sup> <a href="https://doi.org/10.1186/1471-2105-11-353">9</a> </sup>
+. The coupling of SPA, ScreenMill, and the expression of SARS-CoV-2 proteins allows us to screen for SDL interactions. Strains of mutants that show an SDL interaction will be designated as hits and those will be explored further to determine the pathway and mechanism of action caused by viral proteins. The Rothstein laboratory is collaborating with virologist <a href="https://microbiology.columbia.edu/faculty-vincent-racaniello">Vincent Racaniello’s</a> group, which will verify SPA-discovered yeast pathways in mammalian cell lines using homologous genes.</p>
 
-<p>Felix is a good dog.
-He studied at the University of Good Dogs.
-He likes pets, walkies, and treats.</p>
-<p class="center"><a class="link" href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/research/?search=%22F.%20Cited%22%22F%20Cited%22"  data-icon="true" data-text="true" data-style="button"><i class="fas fa-book-open fa-lg "></i><span class="truncate">Felix Cited's papers</span></a></p>
+<figure class="figure">
+  <a class="figure_image" style="">
+    <img src="/SARS-CoV-2-Genetic-Interactions-in-Yeast/images/figure-3.png" alt="A. Mating of donor (black) strain with recipient (white) strain and subsequent donor chromosome destabilization. B. Plasmid transfer occurs through high-throughput robot pinning and 384 mutants per plate in quadruplicates overexpressing gene Y. C. Bottom magnification (over-expression of gene Y) shows an SDL for gene B as there is less growth compared to top magnification (no expression of gene Y)." title="A. Mating of donor (black) strain with recipient (white) strain and subsequent donor chromosome destabilization. B. Plasmid transfer occurs through high-throughput robot pinning and 384 mutants per plate in quadruplicates overexpressing gene Y. C. Bottom magnification (over-expression of gene Y) shows an SDL for gene B as there is less growth compared to top magnification (no expression of gene Y)." style="width: 400px;" loading="lazy" />
+  </a><figcaption class="bold_figure_caption" align="justify">
+      <b><i>Figure 3. SDL interaction screens using SPA.
+</i></b>A. Mating of donor (black) strain with recipient (white) strain and subsequent donor chromosome destabilization. B. Plasmid transfer occurs through high-throughput robot pinning and 384 mutants per plate in quadruplicates overexpressing gene Y. C. Bottom magnification (over-expression of gene Y) shows an SDL for gene B as there is less growth compared to top magnification (no expression of gene Y).
+</figcaption></figure>
+
 </div></section>
     </main>
     <footer class="background" style="--background: url('/SARS-CoV-2-Genetic-Interactions-in-Yeast/images/background.jpg')" data-dark="true">
