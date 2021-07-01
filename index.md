@@ -2,7 +2,7 @@
 title: Home
 ---
 # Welcome!
-This website was created to organize my (insert link for my page) research on the genetic interactions of SARS-CoV-2 in yeast. My project is conducted in [Rodney Rothstein's](rothsteinlab.com) lab at Columbia University. Due to the Covid-19 pandemic, our group decided to study SARS-CoV-2 through the lens of geneticists. We have leveraged pre-existing pipelines designed and [published](https://doi.org/10.1101/gr.109033.110) by our lab to elucidate interactions between viral proteins and the pathways within yeast. Here, you can learn more about the background, approach, preliminary findings and future directions of my project and additionally explore the raw data from our SPA library screens.
+This website was created to organize my research on the genetic interactions of SARS-CoV-2 in yeast. My project is conducted in [Rodney Rothstein's](https://systemsbiology.columbia.edu/faculty/rodney-rothstein) lab at Columbia University. Due to the Covid-19 pandemic, our group decided to study SARS-CoV-2 through the lens of geneticists. We have leveraged pre-existing pipelines designed and [published](https://doi.org/10.1101/gr.109033.110) by our lab to elucidate interactions between viral proteins and the pathways within yeast. Here, you can learn more about the background, approach, preliminary findings and future directions of my project and additionally explore the raw data from our SPA library screens.
 
 {% include section.html %}
 # Background/Motivation

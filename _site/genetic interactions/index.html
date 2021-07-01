@@ -144,37 +144,1231 @@ SARS-CoV-2 Genetic Interactions in Yeast - Screen Data
       class="background"
       
       
-    ><div class="section"><h1 id="-genetic-interactions-determined-by-spa-screens"><i class="fas fa-microscope"></i> Genetic Interactions Determined by SPA Screens</h1>
+    ><div class="section">
+<h1 id="-genetic-interactions-determined-by-spa-screens"><i class="fas fa-table"></i> Genetic Interactions Determined by SPA Screens</h1>
 
-<p>Below is a tool to find a lists of hits for each SPA screen we conducted. You may sort the list by interaction type (SDL or suppressor).</p>
+<p>Below is a tool to find a lists of hits for each SPA screen we conducted. You may sort the list by interaction type (SDL or suppressor). Code and Raw datasets for screens can found at the bottom of the page or <a href="#-raw-datasets">here</a>. This list is incomplete with only the Nsp10-Nsp14 queries and will be updated with results from previous screens. Additionally, I will add in a function to sort and search the table.</p>
 
-<div class="search_box">
-  <input class="search_input" oninput="onSearchInput(this)" placeholder="Search" />
-  <button disabled="" data-tooltip="Clear search" onclick="onSearchClear()">
-    <i class="fas fa-search"></i>
-  </button>
-</div>
-
-<div class="search_info"></div>
-
-<div class='table_wrapper'><table>
-  <thead><tr>
-    <th>Column A</th>
-    <th>Column B</th>
+<table class="tableizer-table">
+  <thead><tr class="tableizer-firstrow">
+    <th>Query</th>
+    <th>Mutation</th>
+    <th>Gene</th>
+    <th>SDL/Sup</th>
+    <th>Library</th>
     </tr></thead>
-  <tbody>
-    <tr>
-      <td>Cell A1</td>
-      <td>Cell B1</td>
-    </tr>
-    <tr>
-      <td>Cell A2</td>
-      <td>Cell B2</td>
-    </tr>
-  </tbody>
+  <tbody><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>aep2</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>agx1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>aim26</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>atp1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>atp17</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>atp22</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>atp7</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>bts1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>cbf1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>cem1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>coq1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>coq4</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>cor1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>cox20</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>cox23</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>ctf18</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>ctf19</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>ctf3</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>ctf8</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>cyt1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>fzo1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>gal1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>ggc1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>grx5</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>hap3</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>hhf1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>hhf2</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>iml3</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>irc15</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>isa1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>kar3</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>kgd1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>mcm16</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>mcm21</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>mcm22</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>mdl2</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>mfm1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>mgm1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>mrp17</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>mrpl31</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>mrpl33</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>mrpl37</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>mrps12</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>mrps17</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>mrps8</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>msm1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>mss2</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>nkp2</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>oxa1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>pth2</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>ref2</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>reg1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>rmd9</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>rmr1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>rpl19b</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>rrp6</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>rsa1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>rsm24</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>sls1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>sqs1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>tps1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>ybl100c</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>ydl068w</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>ydr109c</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>yel014c</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>ykl169c</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>ynk1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>ypl150w</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>yta12</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>arc18</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>arp1</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>cam1</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>cdc73</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>cin8</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>cog1</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>cue1</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>eap1</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>hap4</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>hnt3</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>hos2</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>ies6</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>kap123</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>ktr2</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>ldb16</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>lea1</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>mft1</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>msc7</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>muk1</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>opi11</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>pre9</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>rpl1b</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>rpl21a</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>rsc1</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>sgf29</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>snf5</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>vps25</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>ygl214w</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>WT</td>
+      <td>ynr025c</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>atp1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>atp17</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>cbf1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>ccm1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>coq1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>coq4</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>cox15</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>cox23</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>ctf19</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>ctf3</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>ctf8</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>fun26</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>fzo1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>gal1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>heh2</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>hhf2</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>iml3</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>irc15</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>isa1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>lcb5</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>mcm16</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>mcm21</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>mcm22</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>mdl2</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>mip1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>mrp1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>mrp17</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>mrpl24</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>mrpl32</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>mrpl33</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>mrpl37</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>mrpl6</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>mrps12</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>mrps17</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>mrps8</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>msd1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>msm1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>mss116</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>nkp1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>oxa1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>pet123</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>reg1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>rmd9</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>rsm23</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>rsm24</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>sls1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>sqs1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>tps1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>trm10</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>vma3</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>ybl100c</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>ydl068w</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>ylr269c</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>ynk1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>ypl150w</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>yta12</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>aro1</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>arp1</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>bro1</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>cdc73</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>cgi121</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>elo2</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>hap4</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>hof1</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>ktr2</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>lge1</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>mft1</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>opi11</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>pre9</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>rpl1b</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>rpl21a</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>rpl37a</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>rsc1</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>rsc2</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>ski3</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>ski8</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>snf8</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>ssh1</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>ssn8</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>stp22</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>tma64</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>vrp1</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>ygl214w</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>Exo-</td>
+      <td>zwf1</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>MT-</td>
+      <td>bro1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>MT-</td>
+      <td>fui1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>MT-</td>
+      <td>hnm1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>MT-</td>
+      <td>lcb5</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>MT-</td>
+      <td>ldb7</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>MT-</td>
+      <td>mrps17</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>MT-</td>
+      <td>pim1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>MT-</td>
+      <td>ref2</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>MT-</td>
+      <td>rpl19b</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>MT-</td>
+      <td>snf1</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>MT-</td>
+      <td>stb3</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>MT-</td>
+      <td>trs85</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>MT-</td>
+      <td>yel014c</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>MT-</td>
+      <td>ykr018c</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr><tr>
+      <td>Nsp10 with Nsp14</td>
+      <td>MT-</td>
+      <td>yol079w</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
+    </tr></tbody>
 </table></div>
 
-<script type="text/javascript" src="http://r.office.microsoft.com/r/rlidExcelButton?v=1&amp;kip=1"></script>
+</div></section><section
+      class="background"
+      
+      
+    ><div class="section">
+<h1 id="-code-and-data"><i class="fas fa-microscope"></i> Code and Data</h1>
+
+<h4 id="all-scripts-utilize-the-package-microtubule-meganwang08-which-you-can-find-here">All scripts utilize the package <code class="language-plaintext highlighter-rouge">microtubule-meganwang08</code> which you can find <a href="https://pypi.org/project/microtubule-meganwang08/">here</a></h4>
+<h2 id="code">Code</h2>
+
+<ul>
+  <li><a href="//SARS-CoV-2-Genetic-Interactions-in-Yeast/code/figures-the-cell-map.R"><strong>figures-the-cell-map.R</strong></a>
+| Figures generated from nonessential nsp10-nsp14 screen using screenmill processed data.</li>
+</ul>
+
+<h2 id="datasets">Datasets</h2>
+
+<ul>
+  <li>
+    <p><a href="//SARS-CoV-2-Genetic-Interactions-in-Yeast/datasets/gardner_time_to_catastrophe_dic_tidy.csv">Microtubule time to catastrophe</a> | (filetype:
+.csv)(5 kb)</p>
+  </li>
+  <li>
+    <p><a href="//SARS-CoV-2-Genetic-Interactions-in-Yeast/datasets/gardner_mt_catastrophe_only_tubulin.csv">Microtubule time to catastrophe only tubulin</a> | (filetype:
+.csv)(11 kb)</p>
+  </li>
+</ul>
 
 </div></section>
     </main>

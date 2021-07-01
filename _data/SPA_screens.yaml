@@ -1,5 +1,6 @@
 SPA:
-- query: Nsp10 with Nsp14 WT
+- query: Nsp10 with Nsp14
+  mutation: WT
   SDL:
     - aep2
     - agx1
@@ -68,7 +69,7 @@ SPA:
     - yel014c
     - ykl169c
     - ynk1
-    - ypl150w 
+    - ypl150w
     - yta12
   SUP:
     - arc18
@@ -100,19 +101,109 @@ SPA:
     - vps25
     - ygl214w
     - ynr025c
-- query: Nsp14
+- query: Nsp10 with Nsp14
+  mutation: Exo-
   SDL:
-    - ERG6
-    - SML1
-    - ABD1
+    - atp1
+    - atp17
+    - cbf1
+    - ccm1
+    - coq1
+    - coq4
+    - cox15
+    - cox23
+    - ctf19
+    - ctf3
+    - ctf8
+    - fun26
+    - fzo1
+    - gal1
+    - heh2
+    - hhf2
+    - iml3
+    - irc15
+    - isa1
+    - lcb5
+    - mcm16
+    - mcm21
+    - mcm22
+    - mdl2
+    - mip1
+    - mrp1
+    - mrp17
+    - mrpl24
+    - mrpl32
+    - mrpl33
+    - mrpl37
+    - mrpl6
+    - mrps12
+    - mrps17
+    - mrps8
+    - msd1
+    - msm1
+    - mss116
+    - nkp1
+    - oxa1
+    - pet123
+    - reg1
+    - rmd9
+    - rsm23
+    - rsm24
+    - sls1
+    - sqs1
+    - tps1
+    - trm10
+    - vma3
+    - ybl100c
+    - ydl068w
+    - ylr269c
+    - ynk1
+    - ypl150w
+    - yta12
   SUP:
-    - DIF1
-    - RAD52
-- query: Nsp18
+    - aro1
+    - arp1
+    - bro1
+    - cdc73
+    - cgi121
+    - elo2
+    - hap4
+    - hof1
+    - ktr2
+    - lge1
+    - mft1
+    - opi11
+    - pre9
+    - rpl1b
+    - rpl21a
+    - rpl37a
+    - rsc1
+    - rsc2
+    - ski3
+    - ski8
+    - snf8
+    - ssh1
+    - ssn8
+    - stp22
+    - tma64
+    - vrp1
+    - ygl214w
+    - zwf1
+- query: Nsp10 with Nsp14
+  mutation: MT-
   SDL:
-    - ERG6
-    - SML1
-    - ABD1
-  SUP:
-    - DIF1
-    - RAD52
+    - bro1
+    - fui1
+    - hnm1
+    - lcb5
+    - ldb7
+    - mrps17
+    - pim1
+    - ref2
+    - rpl19b
+    - snf1
+    - stb3
+    - trs85
+    - yel014c
+    - ykr018c
+    - yol079w

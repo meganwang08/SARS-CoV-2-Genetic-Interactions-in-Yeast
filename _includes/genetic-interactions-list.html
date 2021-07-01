@@ -1,22 +1,38 @@
-
-<table>
-  <thead><tr>
-    <th>Column A</th>
-    <th>Column B</th>
+{%- assign emptyarray = "" | split: "," -%}
+{%- assign data = site.data[include.data] | default: site[include.data] | default: emptyarray -%}
+<table class='tableizer-table'>
+  <thead><tr class="tableizer-firstrow">
+    <th>Query</th>
+    <th>Mutation</th>
+    <th>Gene</th>
+    <th>SDL/Sup</th>
+    <th>Library</th>
     </tr></thead>
   <tbody>
+    {%- for item in data.SPA -%}
+    {%- assign query_name = item.query -%}
+    {%- assign mut = item.mutation -%}
+    {%- for gene_sdl in item.SDL -%}
     <tr>
-      <td>Cell A1</td>
-      <td>Cell B1</td>
+      <td>{{query_name}}</td>
+      <td>{{mut}}</td>
+      <td>{{gene_sdl}}</td>
+      <td class="sdl">SDL</td>
+      <td>Nonessential</td>
     </tr>
+    {%- endfor -%}
+    {%- for gene_sup in item.SUP -%}
     <tr>
-      <td>Cell A2</td>
-      <td>Cell B2</td>
+      <td>{{query_name}}</td>
+      <td>{{mut}}</td>
+      <td>{{gene_sup}}</td>
+      <td class="sup">Sup</td>
+      <td>Nonessential</td>
     </tr>
+    {%- endfor -%}
+    {%- endfor -%}
   </tbody>
 </table>
-
-<script type="text/javascript" src="http://r.office.microsoft.com/r/rlidExcelButton?v=1&kip=1"></script>
 
 {% comment %}
 {%- assign emptyarray = "" | split: "," -%}

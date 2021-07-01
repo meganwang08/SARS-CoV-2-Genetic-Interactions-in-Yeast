@@ -24,4 +24,14 @@
 
 .query .break { margin: 0; }
 
+table.tableizer-table { font-size: 18px; border: 1px solid #CCC; font-family: Arial, Helvetica, sans-serif; margin-left: auto; margin-right: auto; }
+
+.tableizer-table td { padding: 4px; margin: 3px; border: 1px solid #CCC; margin-left: auto; margin-right: auto; text-align: center; vertical-align: middle; }
+
+.tableizer-table th { padding: 6px; margin: 5px; background-color: #4fc3f7; color: #FFF; font-size: 22px; font-weight: bold; margin-left: auto; margin-right: auto; }
+
+.tableizer-table .sdl { background-color: #e57373; }
+
+.tableizer-table .sup { background-color: #aed581; }
+
 /*# sourceMappingURL=genetic-interactions-list.css.map */
