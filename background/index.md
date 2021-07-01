@@ -24,5 +24,15 @@ While Nsp10 does not catalyze any reactions in the two previously mentioned proc
 
 {% include section.html %}
 
-# Nsp14 Nonfunctional Mutants in Betacoronaviruses
-The two catalytic sites of Nsp14 have been predicted from bioinformatic analyses{% include superscript.html text='[13](https://doi.org/10.1073/pnas.0808790106)'%}. The ExoN domain resides closer to the N terminus and the MT domain is found closer to the C terminus. Separation of function mutants have been conducted in the conserved DEDD ExoN motif{% include superscript.html text='[14](https://www.sciencedirect.com/science/article/pii/S0022283603008659?via%3Dihub)'%} and in the SAM binding site DxE (AA 331-333) of the MT domain. Separation of function mutations have been tested for different Betacoronaviruses in vivo{% include superscript.html text='[14](https://www.sciencedirect.com/science/article/pii/S0022283603008659?via%3Dihub),'%}{% include superscript.html text='[15](https://doi.org/10.1128/JVI.00542-16)'%} but notably there have been no published studies measuring viral titer in SARS-CoV-2 Nsp14 mutants. 
+# Nsp14 Functional Mutants in Betacoronaviruses
+The two catalytic sites of Nsp14 have been predicted from bioinformatic analyses{% include superscript.html text='[13](https://doi.org/10.1073/pnas.0808790106)'%}. The ExoN domain resides closer to the N terminus and the MT domain is found closer to the C terminus. Separation of function mutants have been conducted in the conserved DEDD ExoN motif{% include superscript.html text='[14](https://www.sciencedirect.com/science/article/pii/S0022283603008659?via%3Dihub)'%} and in the SAM binding site DxE (AA 331-333) of the MT domain. Separation of function mutations have been tested for different Betacoronaviruses in vivo{% include superscript.html text='[14](https://www.sciencedirect.com/science/article/pii/S0022283603008659?via%3Dihub),'%}{% include superscript.html text='[15](https://doi.org/10.1128/JVI.00542-16)'%} but notably there have been no published studies measuring viral titer in SARS-CoV-2 Nsp14 mutants. To determine if these separation of function mutations altered viral replication in other Betacoronaviruses, the growth kinetics of Vero cells infected with SARS-CoV-1 was measured to compare ExoN mutant and wildtype variants (Fig. 3a., [16](https://doi.org/10.1371/journal.ppat.1000896)), and viral titer was measured in Murine delayed brain tumor (DBT) cells infected with Murine Hepatitis Virus (MHV) Nsp14 MT mutants (Fig. 3b., [15](https://doi.org/10.1128/JVI.00542-16)).
+
+{%
+  include figure.html
+  image="images/figure-3.png"
+  bold_caption="Figure 3. Replication Kinetics in Nsp14 Separation of Function Mutants."
+  caption="**a.** Viral titer of Vero cells infected with SARS-CoV-1 at an MOI of 0.1 PFU/cell started to decrease significantly at over 20 hours. **b**. Viral titer of DBT cells infected with MHV at an MOI of 1 PFU/cell started to decrease significantly at over 6 hours "
+  width = '70%'
+%}
+
+{:.center}
