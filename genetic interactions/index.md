@@ -8,7 +8,7 @@ nav:
 {% include section.html %}
 # <i class="fas fa-table"></i> Genetic Interactions Determined by SPA Screens
 
-Below is a tool to find a lists of hits for each SPA screen we conducted. You may sort the list by interaction type (SDL or suppressor). Code and Raw datasets for screens can found at the bottom of the page or [here](#-raw-datasets). This list is incomplete with only the Nsp10-Nsp14 queries and will be updated with results from previous screens. Additionally, I will add in a function to sort and search the table.
+Below is a tool to find a lists of hits for each SPA screen we conducted. You may sort the list by interaction type (SDL or suppressor). Code and Raw datasets for screens can found at the bottom of the page or [here](#-code-and-data). This list is incomplete with only the Nsp10-Nsp14 queries and will be updated with results from previous screens. Additionally, I will add in a function to sort and search the table.
 
 {% comment %}
 {% include search-box.html %}

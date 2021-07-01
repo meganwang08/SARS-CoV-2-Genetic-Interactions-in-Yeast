@@ -1,16 +1,16 @@
 - dataset:
   storage: local
-  name: Microtubule time to catastrophe
+  name: Nsp10-Nsp14 Nonessential MATalpha Screenmill Measurements
   filetype: ".csv"
-  link: gardner_time_to_catastrophe_dic_tidy.csv
-  filesize: "5 kb"
+  link: screenmill-measurements.csv
+  filesize: "8.4 mb"
 
-- dataset:
-  storage: local
-  name: Microtubule time to catastrophe only tubulin
-  filetype: ".csv"
-  link: gardner_mt_catastrophe_only_tubulin.csv
-  filesize: "11 kb"
+# - dataset:
+#   storage: local
+#   name: Microtubule time to catastrophe only tubulin
+#   filetype: ".csv"
+#   link: gardner_mt_catastrophe_only_tubulin.csv
+#   filesize: "11 kb"
 #
 # - dataset:
 #   storage: remote
