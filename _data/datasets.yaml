@@ -1,7 +1,7 @@
 - dataset:
   storage: local
   name: Nsp10-Nsp14 Nonessential MATalpha Screenmill Measurements
-  filetype: ".csv"
+  filetype: "csv"
   link: screenmill-measurements.csv
   filesize: "8.4 mb"
 
