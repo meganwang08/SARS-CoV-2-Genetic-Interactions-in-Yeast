@@ -39,7 +39,6 @@ Below is a tool to find a lists of hits for each SPA screen we conducted. You ma
 
 {% comment %}
 {% include search-box.html %}
-
 {% include search-info.html %}
 {% endcomment %}
 

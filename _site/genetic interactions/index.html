@@ -180,7 +180,53 @@ csv) (8.4 mb)</li>
 
 <p>Below is a tool to find a lists of hits for each SPA screen we conducted. You may sort the list by interaction type (SDL or suppressor). This list is incomplete with only the Nsp10-Nsp14 queries and will be updated with results from previous screens. Additionally, I will add in a function to sort and search the table.</p>
 
-<table class="tableizer-table">
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('https://www.w3schools.com/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<h2>Screen Data</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search table..." title="Type in a name" />
+
+<table id="myTable" class="tableizer-table">
   <thead><tr class="tableizer-firstrow">
     <th>Query</th>
     <th>Mutation</th>
@@ -1372,6 +1418,32 @@ csv) (8.4 mb)</li>
       <td>Nonessential</td>
     </tr></tbody>
 </table></div>
+
+
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 1; i < tr.length; i++) {
+  td = tr[i];
+  if (td) {
+    txtValue = td.textContent || td.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      tr[i].style.display = "";
+    } else {
+      tr[i].style.display = "none";
+    }
+  }
+}
+}
+</script>
+
+</body>
+</html>
 
 </div></section>
     </main>
