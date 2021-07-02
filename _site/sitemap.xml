@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/SARS-CoV-2-Genetic-Interactions-in-Yeast/members/anne-chovie.html</loc>
-<lastmod>2021-07-01T16:50:51-04:00</lastmod>
+<loc>/SARS-CoV-2-Genetic-Interactions-in-Yeast/members/megan-wang.html</loc>
+<lastmod>2021-07-02T00:03:13-04:00</lastmod>
 </url>
 <url>
-<loc>/SARS-CoV-2-Genetic-Interactions-in-Yeast/members/felix-cited.html</loc>
-<lastmod>2021-07-01T16:50:51-04:00</lastmod>
-</url>
-<url>
-<loc>/SARS-CoV-2-Genetic-Interactions-in-Yeast/members/upton-goode.html</loc>
-<lastmod>2021-07-01T16:50:51-04:00</lastmod>
+<loc>/SARS-CoV-2-Genetic-Interactions-in-Yeast/members/nandan-vithlani.html</loc>
+<lastmod>2021-07-02T00:03:13-04:00</lastmod>
 </url>
 <url>
 <loc>/SARS-CoV-2-Genetic-Interactions-in-Yeast/2019/01/07/example-post-1.html</loc>
@@ -25,13 +21,13 @@
 <lastmod>2020-07-02T00:00:00-04:00</lastmod>
 </url>
 <url>
+<loc>/SARS-CoV-2-Genetic-Interactions-in-Yeast/contributors/</loc>
+</url>
+<url>
 <loc>/SARS-CoV-2-Genetic-Interactions-in-Yeast/preliminary%20findings/</loc>
 </url>
 <url>
-<loc>/SARS-CoV-2-Genetic-Interactions-in-Yeast/background/</loc>
-</url>
-<url>
-<loc>/SARS-CoV-2-Genetic-Interactions-in-Yeast/contributors/</loc>
+<loc>/SARS-CoV-2-Genetic-Interactions-in-Yeast/genetic%20interactions/</loc>
 </url>
 <url>
 <loc>/SARS-CoV-2-Genetic-Interactions-in-Yeast/approach/</loc>
@@ -40,6 +36,6 @@
 <loc>/SARS-CoV-2-Genetic-Interactions-in-Yeast/</loc>
 </url>
 <url>
-<loc>/SARS-CoV-2-Genetic-Interactions-in-Yeast/genetic%20interactions/</loc>
+<loc>/SARS-CoV-2-Genetic-Interactions-in-Yeast/background/</loc>
 </url>
 </urlset>

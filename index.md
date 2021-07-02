@@ -31,7 +31,7 @@ In the context of discovering genetic interactions, the Rothstein group focuses 
 After taking a global approach by screening all viral proteins, we found interesting interactions between functional mutants of Nsp14 and yeast pathways. Thus, our preliminary screens have lead use to focus our work on Nsp14 and
 background relative to this protein can be found in this section of the website.
 
-[See our preliminary data &nbsp;→](preliminary data)
+[See our preliminary data &nbsp;→](preliminary findings)
 {:.center}
 {% endcapture %}
 

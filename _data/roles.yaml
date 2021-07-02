@@ -14,6 +14,10 @@ undergrad:
   icon: fas fa-user-graduate
   text: Undergraduate Student
 
+postbacc:
+  icon: fas fa-graduation-cap
+  text: Post-Bacc Student
+
 programmer:
   icon: fas fa-code
   text: Programmer

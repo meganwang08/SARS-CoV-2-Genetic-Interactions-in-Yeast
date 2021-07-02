@@ -2,3 +2,7 @@
   name: figures-the-cell-map.R
   desc: >
     Figures generated from nonessential nsp10-nsp14 screen using screenmill processed data.
+- script:
+  name: growth-curves.Rmd
+  desc: >
+    Analysis and graphing of Nsp10-Nsp14 growth curve data.

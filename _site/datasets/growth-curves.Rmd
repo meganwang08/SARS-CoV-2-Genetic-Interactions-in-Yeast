@@ -1,0 +1,486 @@
+<html>
+  <head>
+  <!-- put your analytics (e.g. Google Analytics) tracking code here -->
+
+  <title>
+    SARS-CoV-2 Genetic Interactions in Yeast - nsp expression in yeast
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+
+<!-- https://metatags.io/ -->
+<meta name="title" content="
+SARS-CoV-2 Genetic Interactions in Yeast - nsp expression in yeast
+" />
+<meta name="description" content="A website on my ongoing research on SARS-CoV-2 genetic interactions in yeast in Rodney Rothstein's Lab at Columbia University." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="" />
+<meta property="og:title" content="
+SARS-CoV-2 Genetic Interactions in Yeast - nsp expression in yeast
+" />
+<meta property="og:description" content="A website on my ongoing research on SARS-CoV-2 genetic interactions in yeast in Rodney Rothstein's Lab at Columbia University." />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="" />
+<meta property="twitter:title" content="
+SARS-CoV-2 Genetic Interactions in Yeast - nsp expression in yeast
+" />
+<meta property="twitter:description" content="A website on my ongoing research on SARS-CoV-2 genetic interactions in yeast in Rodney Rothstein's Lab at Columbia University." />
+
+<!-- RSS -->
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/feed.xml"
+/>
+
+<!-- https://developers.google.com/web/fundamentals/native-hardware/click-to-call#disable_auto-detection_when_necessary -->
+<meta name="format-detection" content="telephone=no" />
+
+  <!-- https://realfavicongenerator.net/ -->
+<link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/favicons/ios.png"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="512x512"
+  href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/favicons/favicon.png"
+/>
+<link rel="manifest" href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/favicons/site.webmanifest" />
+
+<!-- https://metatags.io/ -->
+<meta
+  property="og:image"
+  content="/SARS-CoV-2-Genetic-Interactions-in-Yeast/favicons/share-thumbnail.jpg"
+/>
+<meta
+  property="twitter:image"
+  content="/SARS-CoV-2-Genetic-Interactions-in-Yeast/favicons/share-thumbnail.jpg"
+/>
+
+  <!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link
+  href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+  rel="stylesheet"
+/>
+
+<!-- Font Awesome (icons) -->
+<link
+  href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+  rel="stylesheet"
+/>
+
+  <!-- site-wide css styles -->
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/all.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/anchor.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/background.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/banner.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/card.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/citation.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/code.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/feature.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/figure.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/footer.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/gallery.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/genetic-interactions-list.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/header.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/heading.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/highlight.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/icon.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/image.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/input.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/link.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/list.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/paragraph.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/portrait.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/post-excerpt.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/post-info.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/post-nav.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/quote.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/role.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/rule.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/search-box.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/search-info.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/section.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/table.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/tags.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/tooltip.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/two-col.css" rel="stylesheet" />
+      <link href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/css/util.css" rel="stylesheet" />
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"></script>
+
+<!-- site-wide javascript scripts -->
+<script src="/SARS-CoV-2-Genetic-Interactions-in-Yeast/js/anchors.js"></script>
+  <script src="/SARS-CoV-2-Genetic-Interactions-in-Yeast/js/fetch-tags.js"></script>
+  <script src="/SARS-CoV-2-Genetic-Interactions-in-Yeast/js/search.js"></script>
+  <script src="/SARS-CoV-2-Genetic-Interactions-in-Yeast/js/tooltips.js"></script>
+  <script src="/SARS-CoV-2-Genetic-Interactions-in-Yeast/js/true-hide.js"></script>
+  
+
+</head>
+
+  <body>
+    <header class="background" style="--background: url('/SARS-CoV-2-Genetic-Interactions-in-Yeast/images/background.jpg')" data-dark="true">
+  <a
+    href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/"
+    class="logo_row"
+    data-tooltip="Home"
+  >
+    <img src="/SARS-CoV-2-Genetic-Interactions-in-Yeast/images/tSNE.png" class="logo" />
+    
+      <span class="logo_text">SARS-CoV-2 Genetic Interactions in Yeast</span>
+    
+  </a>
+  <nav class="nav_row"><a class="link" href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/background/" data-tooltip="Detailed background info"  data-text="true" data-style=""><span class="truncate">Background</span></a><a class="link" href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/approach/" data-tooltip="Methods"  data-text="true" data-style=""><span class="truncate">Approach</span></a><a class="link" href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/preliminary%20findings/" data-tooltip="Current work"  data-text="true" data-style=""><span class="truncate">Preliminary Findings</span></a><a class="link" href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/genetic%20interactions/" data-tooltip="Code and Datasets"  data-text="true" data-style=""><span class="truncate">Screen Data</span></a><a class="link" href="/SARS-CoV-2-Genetic-Interactions-in-Yeast/contributors/" data-tooltip="About and contact"  data-text="true" data-style=""><span class="truncate">Contributors</span></a></nav>
+</header>
+
+    <main>
+      <section
+      class="background"
+      
+      
+    ><div class="section">```{r setup, include=FALSE}
+library(tidyverse)
+
+knitr::opts_chunk$set(echo = TRUE)
+
+# Plot theme
+theme_set(theme_bw())
+```
+
+## Read data from a previously processed screenMill collection
+
+```{r}
+dir = 'data/images'
+measurements <- screenmill::read_screenmill(dir)
+
+```
+
+## Check growth of controls by plate position on scanner
+
+First filter all controls into set and remove border positions to only compare 'inner' controls
+
+```{r}
+measurements %>%
+  filter(OE != 'Grid') %>%
+  ggplot(aes(x=hours_growth,y=size,color=OE)) +
+  geom_point(stat = "identity", shape=16, alpha = 0.2) +
+  ggtitle("Raw Growth Curve of Nsp10-Nsp14") +
+  ylab("Colony Size") +
+  xlab("Time (hrs)") +
+  ggsave('figures/raw-growth-curves.pdf', width = 6, height = 6)
+
+```
+
+
+```{r}
+Controls <- 
+  measurements %>%
+  filter(plate_control == T) %>%
+  filter(row %in% 2:7) %>%
+  filter(column %in% 2:11) %>%
+  mutate(
+        hours_growth = round(hours_growth, digits=1)
+  ) %>%
+  group_by(position, hours_growth) %>%
+  summarise(
+    rep.mean = mean(size, trim=0.2),
+    sd   = sd(size)
+  )
+
+```
+
+Then graph by plate
+
+```{r}
+Controls %>%
+  ggplot(aes(x=hours_growth, y=rep.mean, color=as.factor(position))) +
+  geom_point(stat = "identity", shape=16) +
+  geom_errorbar(aes(ymin=rep.mean-sd, ymax=rep.mean+sd)) +
+  scale_color_viridis_d(option = "plasma") +
+  labs(color = 'Plate Number') +
+  ggtitle("Control Colony Size by Plate") +
+  xlab("Time (hrs)") + 
+  ylab("Control Colony Size") +
+  ggsave('figures/control-growth-curves.pdf', width = 6, height = 6)
+```
+
+Aggregate replicate data points and plate normalize.
+
+## Process data
+
+```{r}
+Growth <-
+  measurements %>%
+  filter(OE != 'Grid') %>%
+  mutate(
+    hours_growth = round(hours_growth, digits=1)
+  ) %>%
+  filter(row %in% 2:7) %>%
+  filter(column %in% 2:11) %>%
+  group_by(position, row, column, plasmid_id,strain_id, OE, hours_growth) %>%
+  summarise(
+    rep.mean = mean(size, trim=0.2),
+    sd   = sd(size)
+  )
+```
+
+Plot by genotype to see raw data and color by transformant number (this is number attached to 'labels')
+
+## Graphs
+
+```{r All}
+Growth %>%
+  ggplot(aes(x=hours_growth, y=rep.mean, color = OE)) +
+  geom_point(stat = "identity") +
+  #geom_errorbar(aes(ymin = rep.mean - sd, ymax = rep.mean + sd)) +
+  ggtitle("Nsp10-Nsp14 expressed in yeast") +
+  facet_wrap(~ position) +
+  xlab("Time (hrs)") + 
+  ylab("Query Colony Size") +
+  ggsave('figures/plate-growth-curves.pdf', width = 6, height = 6)
+```
+
+
+Plate norm
+
+```{r}
+plate_mean <- Growth %>%
+  group_by(position, plasmid_id, OE, strain_id, hours_growth) %>%
+  summarise(
+    plate.mean = mean(rep.mean, trim=0.2),
+    plate.sd   = sd(rep.mean)
+  )
+```
+
+
+```{r}
+plate_mean %>%
+  ggplot(aes(x=hours_growth, y=plate.mean, color = OE)) +
+  geom_point(stat = "identity") +
+  geom_errorbar(aes(ymin = plate.mean - plate.sd, ymax = plate.mean + plate.sd)) +
+  ggtitle("Nsp10-Nsp14 expressed in yeast") +
+  facet_wrap(~ position) + 
+  xlab("Time (hrs)") + 
+  ylab("Mean Query Colony Size")+
+  ggsave('figures/mean-plate-growth-curves.pdf', width = 6, height = 6)
+```
+
+```{r}
+plate_max_EV <- Controls %>%
+  group_by(position) %>%
+  summarise(
+    max_EV = max(rep.mean)
+  ) %>%
+  select(position, max_EV)
+```
+
+```{r}
+plate_norm <- plate_mean %>%
+  left_join(plate_max_EV) %>%
+  group_by(position, plasmid_id, OE, strain_id, hours_growth) %>%
+    mutate(
+      norm_mean = plate.mean/max_EV,
+      norm_sd = plate.sd/max_EV
+    )
+
+```
+
+```{r}
+plate_norm %>%
+  ggplot(aes(x=hours_growth, y=norm_mean, color = OE)) +
+  geom_point(stat = "identity") +
+  geom_errorbar(aes(ymin = norm_mean - norm_sd, ymax = norm_mean + norm_sd)) +
+  ggtitle("Nsp10-Nsp14 expressed in yeast") +
+  facet_wrap(~ position) +
+  xlab("Time (hrs)") + 
+  ylab("Normalized Query Colony Size") +
+  ggsave('figures/normalized-plate-growth-curves.pdf', width = 6, height = 6)
+```
+
+Normalize the strain growth by the maximum EV colony size
+
+```{r}
+strain_mean <- Growth %>%
+  left_join(plate_max_EV)%>%
+    mutate(
+      norm_rep = rep.mean/max_EV
+    ) %>%
+  group_by(strain_id, plasmid_id, OE, hours_growth) %>%
+  summarise(
+    strain.mean = mean(norm_rep, trim=0.2),
+    strain.sd   = sd(norm_rep)
+  ) %>%
+mutate(mutant = case_when(
+    OE %in% c('GAL10p-Nsp10 GAL1p-Nsp14', 'GAL1p-Nsp14')~ "Nsp14 Wild-Type",
+    OE %in% c('GAL10p-Nsp10 GAL1p-Nsp14 exo-', 'GAL1p-Nsp14 exo-') ~ "Nsp14 exo-",
+    OE %in% c('GAL10p-Nsp10 GAL1p-Nsp14 MT-', 'GAL1p-Nsp14 MT-') ~ "Nsp14 MT-",
+    OE == "Gal10p-Nsp10" ~ "Nsp10",
+    TRUE ~ "Empty Vector"
+    ),
+    complex = case_when(
+    OE %in% c('GAL10p-Nsp10 GAL1p-Nsp14', 'GAL10p-Nsp10 GAL1p-Nsp14 exo-','GAL10p-Nsp10 GAL1p-Nsp14 MT-')~ "Nsp10 + Nsp14",
+    OE %in% c('GAL1p-Nsp14', 'GAL1p-Nsp14 exo-','GAL1p-Nsp14 MT-')~ "Nsp14",
+    OE == "Gal10p-Nsp10" ~ "Nsp10",
+    TRUE ~ "Empty Vector")
+      
+    )
+```
+
+Split data up into three panels
+
+```{r}
+grids1 <- strain_mean %>%
+  filter(OE %in% c("Empty Vector","Gal10p-Nsp10"))
+grids2 <- strain_mean %>%
+  filter(OE %in% c("Empty Vector","Gal10p-Nsp10"))
+grids3 <- strain_mean %>%
+  filter(OE %in% c("Empty Vector","Gal10p-Nsp10"))
+grids1$mutant <- "Nsp14 Wild-Type"
+grids2$mutant <- "Nsp14 exo-"
+grids3$mutant <- "Nsp14 MT-"
+strain_mean2 <- rbind(grids1, strain_mean)
+strain_mean2 <- rbind(grids2, strain_mean2)
+strain_mean2 <- rbind(grids3, strain_mean2) %>%
+  mutate(mutant = ordered(mutant, levels = c("Nsp14 Wild-Type", "Nsp14 exo-", "Nsp14 MT-")))
+```
+
+```{r}
+`%notin%` <- Negate(`%in%`)
+```
+
+```{r}
+strain_mean2 %>%
+  filter(mutant %notin% c(NA)) %>%
+  ggplot(aes(x=hours_growth, y=strain.mean, color = complex)) +
+  scale_color_manual(values=c("#F8766D", "#C77CFF", "#00BA38", "#619CFF"))+
+  geom_point(stat = "identity") +
+  geom_errorbar(aes(ymin = strain.mean - strain.sd, ymax = strain.mean + strain.sd), width=.5) +
+  scale_fill_manual(values=c("#F8766D", "#C77CFF", "#00BA38", "#619CFF"))+
+  facet_wrap(~mutant) +
+  ggtitle("Nsp10-Nsp14 Separation of Function Mutants") +
+  xlab("Time (hrs)") + 
+  ylab("Normalized Query Colony Size") + 
+  labs(color = "Complex", fill = "Complex")+
+  theme(legend.position = c(0.13, 0.88), legend.key.size = unit(4.5, 'mm'))+
+  ggsave('figures/normalized-strain-growth-curves-mut2.pdf', width = 6, height = 6)
+
+```
+
+```{r}
+strain_mean %>%
+  write_csv("data/strain_mean_20200812.csv")
+```
+Only keep empty vector, and remove mutant strains but keep nsp10 only
+
+```{r}
+strain_mean %>%
+  filter(OE %in% c('Empty Vector', 'Gal10p-Nsp10', 'GAL10p-Nsp10 GAL1p-Nsp14', 'GAL1p-Nsp14')) %>%
+  ggplot(aes(x=hours_growth, y=strain.mean, color = OE)) +
+  geom_point(stat = "identity") +
+  geom_ribbon(aes(ymin = strain.mean - strain.sd, ymax = strain.mean + strain.sd, fill=OE),alpha=0.3,color=NA) +
+  ggtitle("Nsp10-Nsp14 Wildtype") +
+  xlab("Time (hrs)") + 
+  ylab("Normalized Query Colony Size") + 
+  labs(color = "Overexpression", fill = "Overexpression")+ 
+  theme(legend.position = c(0.20, 0.7))+
+  ggsave('figures/normalized-strain-growth-curves-mut-empty-nsp10-nsp14WT.pdf', width = 4.5, height = 4.5)
+
+```
+
+
+```{r}
+strain_mean %>%
+  write_csv("data/strain_mean_20200812.csv")
+```
+
+
+Combine biological replicates
+
+```{r}
+final_growth <-
+  plate_norm %>%
+  group_by(plasmid_id, OE, hours_growth) %>%
+  summarise(
+    mean = mean(norm_mean),
+    sd   = sd(norm_mean),
+    n = n(),
+    result.se = sd / sqrt(n),
+    ci95 = result.se * qt(0.975, df=n-1)
+  )
+```
+
+
+```{r}
+final_growth %>%
+  ggplot(aes(x=hours_growth, mean, color = OE)) +
+  geom_line(stat = "identity", size=2) +
+  #geom_smooth(span=0.2) +
+  geom_ribbon(aes(ymin = mean - ci95, ymax = mean + ci95, fill=OE),alpha=0.3,color=NA) +
+  ggtitle("Nsp14 Expression Results in Significant Growth Reduction in Yeast") +
+  xlab("Time (hrs)") +
+  ylab("Normalized growth") +
+  ggsave('figures/overall-growth-curves.pdf', width = 6, height = 6)
+```
+
+
+Not yet used to produce figures
+```{r}
+
+smooth_models <- final_growth %>%
+  nest(-OE) %>%
+  mutate(
+    m = map(data = c(plasmid_id, hours_growth, mean, sd, n, result.se, ci95),loess,
+            formula = mean ~ hours_growth,span=0.3),
+    fitted=map(m, `[[`,"fitted")
+  )
+
+results <- smooth_models %>%
+  select(-m) %>%
+  unnest()
+
+```
+
+```{r}
+results %>%
+  filter(!OE %in% c("Nsp4","Nsp1","Orf8")) %>%
+  ggplot(aes(x=hours_growth, fitted, color = factor(OE,
+                                                    levels = c("2µEV","EV","2µSARS2-PLP",
+                                                               "SARS2-PLP","2µSARS1-PLP",
+                                                               "SARS1-PLP")))) +
+  geom_line(stat = "identity", size=2) +
+  #geom_smooth(span=0.2) +
+  geom_ribbon(aes(ymin = fitted - ci95, ymax = fitted + ci95, fill=factor(OE,
+                                                    levels = c("2µEV","EV","2µSARS2-PLP",
+                                                               "SARS2-PLP","2µSARS1-PLP",
+                                                               "SARS1-PLP"))),alpha=0.3,color=NA) +
+  ggtitle("SARS1 & SARS2 PLP fitness reduction in yeast") +
+  xlab("time (hours)") +
+  ylab("normalized fitness") +
+  guides(fill=guide_legend(title = NULL),
+         color=guide_legend(title = NULL))
+
+
+```</div></section>
+    </main>
+    <footer class="background" style="--background: url('/SARS-CoV-2-Genetic-Interactions-in-Yeast/images/background.jpg')" data-dark="true">
+  <div class="footer_row"><a class="link" href="mailto:yinghan@caltech.edu" data-tooltip="Email" data-icon="true"  data-style=""><i class="fas fa-envelope fa-lg fa-fw"></i></a><a class="link" href="https://scholar.google.com/citations?hl=en&user=Megan Wang" data-tooltip="Google Scholar" data-icon="true"  data-style=""><i class="fab fa-google fa-lg fa-fw"></i></a><a class="link" href="https://github.com/meganwang08" data-tooltip="GitHub" data-icon="true"  data-style=""><i class="fab fa-github fa-lg fa-fw"></i></a></div>
+  <!--
+  <div class="footer_row">
+    &copy; 2021 SARS-CoV-2 Genetic Interactions in Yeast
+  </div>
+  -->
+</footer>
+
+    <div class="tooltip">
+  <div class="tooltip_content"></div>
+  <div class="tooltip_arrow" data-popper-arrow></div>
+</div>
+
+  </body>
+</html>
