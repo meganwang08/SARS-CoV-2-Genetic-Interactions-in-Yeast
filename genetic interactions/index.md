@@ -35,7 +35,7 @@ An interactive tool to search the screen data can found at the bottom of the pag
 {% include section.html %}
 # <i class="fas fa-table"></i> Genetic Interactions Determined by SPA Screens
 
-Below is a tool to find a lists of hits for each SPA screen we conducted. You may sort the list by interaction type (SDL or suppressor). This list is incomplete with only the Nsp10-Nsp14 queries and will be updated with results from previous screens. Additionally, I will add in a function to sort and search the table.
+Below is a tool to find a lists of hits for each SPA screen we conducted. You may sort the list by interaction type (SDL or suppressor). This list is incomplete with only the Nsp10-Nsp14 queries and will be updated with results from previous screens.
 
 {% comment %}
 {% include search-box.html %}
