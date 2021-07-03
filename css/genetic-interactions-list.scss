@@ -5,6 +5,8 @@
 @import "theme";
 @import "mixins";
 
+@media only screen and (max-width: 800px) {}
+
 table.tableizer-table {
 	font-size: 18px;
 	border: 1px solid #CCC;
@@ -69,12 +71,4 @@ table.tableizer-table {
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   font-size: 20px;
-}
-
-@media only screen and (max-width: 480px) {
-    /* horizontal scrollbar for tables if mobile screen */
-    .tablemobile {
-        overflow-x: auto;
-        display: block;
-    }
 }
