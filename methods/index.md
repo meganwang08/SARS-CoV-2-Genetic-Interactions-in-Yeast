@@ -35,4 +35,4 @@ Overnight liquid cultures were grown to saturation in appropriate selective medi
 
 {% include section.html %}
 # Supplemental Material
-Supplemental Table S1: [S1.csv](http://sars-cov-2-genetic-interactions-in-yeast/methods/S1.csv)
+Supplemental Table S1: [S1.csv](https://meganwang08.github.io//SARS-CoV-2-Genetic-Interactions-in-Yeast/methods/S1.csv)
