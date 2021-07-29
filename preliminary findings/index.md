@@ -31,7 +31,7 @@ Structural and functional analysis of the viral replisome shows that nsp10 binds
   include figure.html
   image="images/figure-7.png"
   bold_caption="Figure 7. Methyltransferase domain leads to SDL hits seen in genetic landscape analysis of nsp10-nsp14 dual expression."
-  caption="**A-B.** MATa library screen consisting of ~4800 single nonessential gene mutations coexpressed with either nsp10-nsp14 wildtype, nsp10-nsp14 exonuclease mutation, or nsp10-nsp14 methyltransferase mutation. tSNE plots are organized through genetic interactions such that genes in the same pathway are closer to proximity with each other and redder heat map intensity indicates a higher number of hits per area. Existence of the methyltransferase domain leads to enrichment of two gene clusters (**A** and **B**), while the absence of a functional methyltransferase domain results in the loss of SDL interactions. "
+  caption="**A-B.** MAT<i>a</i> library screen consisting of ~4800 single nonessential gene mutations coexpressed with either nsp10-nsp14 wildtype, nsp10-nsp14 exonuclease mutation, or nsp10-nsp14 methyltransferase mutation. tSNE plots are organized through genetic interactions such that genes in the same pathway are closer to proximity with each other and redder heat map intensity indicates a higher number of hits per area. Existence of the methyltransferase domain leads to enrichment of two gene clusters (**A** and **B**), while the absence of a functional methyltransferase domain results in the loss of SDL interactions. "
 %}
 
 {% include section.html %}
